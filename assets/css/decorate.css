@@ -1,0 +1,106 @@
+.vision, .mission{
+    background: rgb(251 195 46);
+    height: 110px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.values div{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.core-values{
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* .semi-circle{
+    border-radius: 90px;
+    border: 2px solid red;
+} */
+
+.why-us-parent div{
+    margin: 0 auto;
+   
+}
+
+.why-us{
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+
+}
+
+@media screen and (max-width: 540px) {
+ 
+    .number-circle {
+        background: rgb(251 195 46);
+        padding: 7px 20px !important;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .why-us h4 {
+        padding: 10px !important;
+        margin-left: 1px !important;
+        width: 210px;
+       
+       
+    }
+
+    .why-us #long-title {
+        width: 210px !important;
+       
+        
+    }
+
+    .why-us .paragraph{
+        margin-left: 70px !important;
+    }
+   
+  }
+
+.why-us h4{
+    border: none;
+    display: inline-block;
+    background: rgb(251 195 46);
+    padding: 5px;
+    margin-left: 10px;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.number-circle{
+    background: rgb(251 195 46);
+    padding: 15px 30px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.why-us .paragraph{
+    margin-left: 100px;
+}
+
+.gtog{
+    color: #1b548b;
+    margin-right: 4px;
+}
+
+.feedback-success{
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 16px;
+    background: rgb(109 176 67);
+}
+.hidden{
+    display: none;
+}
